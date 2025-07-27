@@ -57,4 +57,3 @@ Inspired by [The Complete Web Development Bootcamp](https://www.udemy.com/course
 
 ---
 
-## 📄
