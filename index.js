@@ -1,8 +1,22 @@
-for(let i=0;i<document.querySelectorAll(".drum").length;i++) {
-document.querySelectorAll("button")[i].addEventListener("click",handleClick)
+for(var i = 0; i < document.querySelectorAll(".drum").length; i++) {
+    document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+        var buttonInnerHTML = this.innerHTML;
+        handleClick(buttonInnerHTML);
+        document.querySelector("."+buttonInnerHTML).classList.add("pressed");
+        setTimeout(function() {
+            document.querySelector("."+buttonInnerHTML).classList.remove("pressed");
+        }, 100);
+    })
 }
-function handleClick() {
-  switch (this.innerHTML) {
+document.addEventListener("keydown",function(event){
+    handleClick(event.key);
+    document.querySelector("."+event.key).classList.add("pressed");
+    setTimeout(function() {
+        document.querySelector("."+event.key).classList.remove("pressed");
+    }, 100);
+    })
+function handleClick(key) {
+  switch (key) {
     case "w":
         var audio = new Audio("sounds/tom-1.mp3");
         audio.play();
