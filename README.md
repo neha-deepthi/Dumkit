@@ -1,54 +1,48 @@
 # Drum 🥁 Kit
 
-Welcome to the **Drum Kit** project!  
-Play drums using your keyboard or by clicking the buttons.  
-Enjoy a fun, interactive musical experience right in your browser.
+A fun, interactive drum kit web app!  
+Play drum sounds by clicking the buttons or pressing keys on your keyboard.
 
 ---
 
-## 🎹 How to Use
+## 🎮 How to Play
 
-- **Click** any drum button (`w`, `a`, `s`, `d`, `j`, `k`, `l`)  
-  or  
-- **Press** the corresponding key on your keyboard  
-- Hear the drum sound and see the button animation!
+- **Click** any drum button (`w`, `a`, `s`, `d`, `j`, `k`, `l`)
+- **Or** press the corresponding key on your keyboard
+- Each button/key plays a unique drum sound and animates the button
 
----
-
-## 🖼️ Preview
-
-![Drum Kit Screenshot](https://user-images.githubusercontent.com/your-screenshot.png)  
-*Replace with your own screenshot!*
-
----
 
 ## 🚀 Features
 
 - Responsive design
-- Smooth button animations
+- Button press animation
 - Custom drum sounds
-- Easy to extend and customize
+- Keyboard and mouse support
 
 ---
 
-## 📦 Files
+## 📁 Project Structure
 
-- `index.html` – Main HTML file
-- `styles.css` – Styling for the drum kit
-- `index.js` – JavaScript for sound and animation
-
----
-
-## 💡 Credits
-
-Made with ❤️ in London.  
-Inspired by [The Complete 2025 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
+```
+Drum Kit Starting Files/
+├── index.html
+├── styles.css
+├── index.js
+└── sounds/
+    ├── tom-1.mp3
+    ├── tom-2.mp3
+    ├── tom-3.mp3
+    ├── tom-4.mp3
+    ├── snare.mp3
+    ├── crash.mp3
+    └── kick-bass.mp3
+```
 
 ---
 
 ## 🛠️ Setup
 
-1. Clone this repo:
+1. Clone the repo:
    ```sh
    git clone https://github.com/neha-deepthi/Dumkit.git
    ```
@@ -56,7 +50,11 @@ Inspired by [The Complete 2025 Web Development Bootcamp](https://www.udemy.com/c
 
 ---
 
-## 📬 Contributing
+## 💡 Credits
 
-Pull requests are welcome!  
-Feel free to open issues for suggestions or bugs.
+Made with ❤️ in London.  
+Inspired by [The Complete Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
+
+---
+
+## 📄
